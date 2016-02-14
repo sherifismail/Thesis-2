@@ -1,0 +1,23 @@
+﻿Build started 2/12/2016 2:07:04 PM.
+     1>Project "c:\Users\sherif\documents\visual studio 2013\Projects\TestThesis\TestThesis\TestThesis.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\OpenCV-2.4.11\build\include" /Zi /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(2): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+     1>Source.cpp(24): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>Source.cpp(138): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>Source.cpp(152): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Source.cpp(153): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Source.cpp(194): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>Source.cpp(208): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Source.cpp(209): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\sherif\documents\visual studio 2013\Projects\TestThesis\x64\Debug\TestThesis.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\OpenCV-2.4.11\build\x64\vc12\lib" opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib opencv_nonfree2411d.lib opencv_objdetect2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\sherif\documents\visual studio 2013\Projects\TestThesis\x64\Debug\TestThesis.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\sherif\documents\visual studio 2013\Projects\TestThesis\x64\Debug\TestThesis.lib" /MACHINE:X64 x64\Debug\players.obj
+         x64\Debug\Source.obj
+         TestThesis.vcxproj -> c:\users\sherif\documents\visual studio 2013\Projects\TestThesis\x64\Debug\TestThesis.exe
+     1>Done Building Project "c:\Users\sherif\documents\visual studio 2013\Projects\TestThesis\TestThesis\TestThesis.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.64
